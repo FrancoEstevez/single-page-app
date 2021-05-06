@@ -1,3 +1,11 @@
-.classExample{
-    color: green;
+:root {
+    --color-black: #000000;
+    --color-lightBlue: #4BC6B9;
+    --color-blue: #4F759B;
+    --color-white: #FEFCFD;
+    --color-green: #BEEE62;
+}
+
+.classExample {
+    color: var(--color-green);
 }
